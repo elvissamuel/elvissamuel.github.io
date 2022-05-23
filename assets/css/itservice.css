@@ -1,0 +1,51 @@
+
+.nav-bar .top-menu span{
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.nav-bar .top-menu{
+    margin-top: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+}
+
+.right-menu ul li{
+
+    padding: 0px;
+    width: 150px;
+    list-style: none;
+    border-right: 1px solid;
+    text-align: center;
+}
+
+.right-menu ul{
+    display: flex;
+}
+
+.right-menu ul i{
+    margin: 10px 5px 0 0;
+    font-size: 23px;
+    color: yellow;
+}
+
+.right-menu ul #no1{
+    margin-right: 30px;
+
+}
+
+.right-menu ul #no3, #no4, #no5{
+    width: 70px;
+    text-align: center;
+}
+.right-menu ul #no5{
+    border: none;
+}

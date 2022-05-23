@@ -1,0 +1,400 @@
+:root{
+    --pink: #e84393;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+
+}
+
+/*.menubar{
+    background-color: rgb(34, 34, 177);
+    height: 60px;
+    margin-top: 1rem;
+       
+}*/
+
+.top_bar{
+    display: flex;
+    padding: 10px 10px 0px;
+}
+
+.top_bar .info{
+    display: flex;
+    padding: 0px 50px;
+}
+
+.top_bar .logos{
+    margin-left: 35rem;
+}
+
+
+.links ul{
+    list-style: none;
+    background-color: #13287e;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.links li{
+    display: inline-block;
+    padding: 20px 5px 20px 5px;
+    margin-right: 40px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.links li a:hover{
+    color: #e84393;
+}
+
+.links li #logo{
+    font-size: 30px;
+}
+
+.home{
+    display: flex;
+    background-color: rgb(243, 248, 252);
+    margin: 0px 30px;
+    padding: 0px;
+}
+
+.home .image{
+    margin-right: 20px;
+}
+
+
+.homecon1{
+    margin-top: 40px;
+    padding: 1rem 2rem 1rem 2rem;
+    
+}
+
+.homecon1 .homebtn{
+    margin-top: 1rem;
+}
+
+
+.homecon1 p{
+    padding: 2px;
+}
+
+.homebtn{
+    text-align: center;
+}
+
+.homebtn a{
+    text-decoration: none;
+    background-color: #13287e;
+    padding: 0.8rem;
+    margin: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.homebtn a:hover{
+    color: var(--pink);
+}
+
+
+.image img{
+    width: 600px;
+    height: 500px;
+}
+
+.homecon1 h1{
+    text-align: center;
+    font-weight: bold;
+    color: #0d68d2;
+}
+
+.homecon1 h5{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(92, 86, 86);
+}
+
+.title h3{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(104, 101, 101);
+    font-weight: 600;
+}
+
+.title h5{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(104, 101, 101);
+}
+
+/*** About Section***/
+
+.title{
+    background-color: rgb(249, 251, 253);
+    padding: 5px;
+}
+
+
+.offercon{
+    display: flex;
+    justify-content: center;
+}
+
+
+.offers img{
+    width: 280px;
+    height: 250px;
+}
+
+.offers .content{
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(248, 248, 230);
+}
+
+.offers{
+    margin: 0px 15px;
+    box-shadow: 0 0.3rem .5rem rgb(19, 18, 18);
+    width: 280px;
+}
+
+
+/***Packages section ***/
+
+.packages .title{
+    text-align: center;
+    background-color: rgb(248, 248, 230);
+    padding: 5px;
+}
+
+.packagelist{
+    display: flex;
+    justify-content: center;
+}
+
+.packagelist .header{
+    padding: 5px;
+    border-bottom: 2px solid;
+    font-size: 0.2rem;
+    color: rgb(104, 101, 101);
+
+}
+
+.packagelist .header span{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.packagelist .header p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.packagelist .list{
+    margin: 0px 15px;
+    background-color: rgb(247, 243, 243);
+    box-shadow: 0 0.3rem .5rem rgb(19, 18, 18);
+    width: 380px;
+}
+
+.list .header, .price, .features, .reference, .link{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+    color: rgb(104, 101, 101);
+}
+
+.list .features ul{
+    list-style: none;
+}
+
+.list .link a{
+    text-decoration: none;
+    background-color: rgb(59, 59, 161);
+    color: #fff;
+    padding: 10px 90px 10px 90px;
+}
+
+.list .popular{
+    background-color: rgb(59, 59, 161);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/***About Section***/
+
+.about_content{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.boxes .box{
+  
+    background-color: #0d68d2;
+    color: #ffeb34;
+    margin: 10px;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+.boxes .box_top, .box_bottom{
+    display: flex;
+}
+
+.boxes{
+    margin-right: 90px;
+}
+
+.about_content .content{
+    margin-left: 80px;
+    color: rgb(80, 77, 77);
+}
+
+.about_content .content ul{
+    list-style: circle;
+}
+
+.about .login{
+    background-color: rgb(42, 149, 211);
+    height: 300px;
+}
+
+.login .content p{
+    text-align: center;
+    padding: 0px 350px;
+    color: #fff;
+
+}
+
+.login .content{
+    padding: 60px 0px 20px 0px;
+}
+
+.login .link a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(202, 202, 52);
+    border-radius: .5rem;
+    padding: 10px;
+}
+
+.title p{
+    text-align: center;
+    color: rgb(184, 190, 190);
+}
+
+.member .image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(26, 36, 128);
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+.member .member_info{
+    background-color: rgb(42, 149, 211);
+    color: #fff;
+    padding: 10px 90px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0px 30px;
+}
+
+.our_team .team_members{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
+.member .profile{
+    background-color: rgba(241, 239, 235, 0.39);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: 320px;
+    margin-left: 30px;
+    color: rgb(124, 131, 131);
+    
+}
+
+.footer{
+    background-color: #010b3b;
+    display: flex;
+    color: #fff;
+}
+
+.footer .about{
+    width: 35rem;
+    padding: 20px 40px 20px 60px;
+    font-size: small;
+}
+
+.footer .quick_links{
+    width: 30rem;
+    padding: 20px 0px;
+    font-size: medium;
+}
+
+.footer .quick_links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .quick_links a:hover{
+    color: var(--pink);
+}
+
+.footer .quick_links ul{
+    list-style: none;
+}
+
+.footer .contact{
+    width: 35rem;
+    padding: 20px 0px;
+    font-size: small;
+}
+
+.foot{
+    display: flex;
+    padding: 10px;
+    background-color: #13287e;
+}
+
+.foot .logos{
+    margin-left: 25rem;
+}
+
+.foot .rights{
+    margin-left: 70px;
+    color: #fff;
+}
+
+.foot .logos i{
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
