@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.top-contact{
+    padding: 10px 20px;
+}
+
+
+.top-page{
+    padding: 10px 30px 50px;
+    text-align: center;
+}
+
+.menu-bar{
+    background-color: rgb(81, 81, 248);
+    padding: 10px 5px;
+    color: #fff;
+}
+
+.menu-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.menu-bar .menu-list{
+    display: none;
+}
+
+#toggler{
+    display: none;
+}
+
+.menu-bar #toggler:checked ~ .menu-list{
+    display: block;
+}
+
+.menu-bar ul{
+    list-style: none;
+    text-align: right;
+}
+
+.menu-bar ul li{
+    margin: 5px 10px 0px;
+    border-bottom: 1px solid;
+}
+
+.menu-bar ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.menu-bar ul a:hover{
+    background-color: rgba(209, 36, 74, 0.397);
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.menu-bar .logo{
+    font-size: 28px;
+    
+}
+
+.top-page a{
+    padding: 10px;
+    background-color: rgb(66, 66, 231);
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-page h1{
+    color: blue;
+    font-size: 40px;
+}
+
+.home-container .image{
+    display: none;
+}
+
+.features h1, p{
+    text-align: center;
+}
+
+.services{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 4px 2px rgba(5, 5, 17, 0.534);
+
+}
+
+.services p{
+        padding: 0px 30px 30px;
+}
+
+.packages{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.packages .pack{
+    
+    margin: 10px;
+    padding: 20px 0px;
+    box-shadow: 2px 2px 4px 2px rgb(39, 37, 37);
+    line-height: 10px;
+}
+
+.pack .header{
+    border-bottom: 2px solid;
+    line-height: 5px;
+    padding-bottom: 10px;
+}
+
+.pack a{
+    text-decoration: none;
+    background-color: rgb(33, 33, 146);
+    padding: 5px 100px;
+    color: #fff;
+    
+}
+
+.about p, h1{
+    text-align: center;
+}
+
+.about{
+    margin: 10px;
+}
+
+.about-us{
+    background-color: rgb(48, 103, 223);
+    padding: 35px 70px;
+    margin: 10px 25px;
+    color: rgb(228, 228, 31);
+    font-weight: 500;
+}
+
+.login .container{
+    text-align: center;
+    background-color: rgb(28, 91, 173); 
+    color: #fff;
+    padding: 60px 90px;
+    width: 100%;
+}
+
+.login .container a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(211, 199, 30);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.team{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.team .member img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid rgb(12, 23, 175);
+}
+
+.member .member-info{
+    background-color: blue;
+    display: inline-block;
+    color: #fff;
+    padding: 25px 100px;
+    line-height: 5px;
+    border-radius: 50px 10px 50px 10px;
+}
+
+.member .profile{
+    padding: 20px;
+}
+
+.footer{
+    background-color: rgb(13, 5, 85);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer .about{
+    padding: 10px;
+    
+}
+
+.quick_links ul li{
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.quick_links{
+    padding: 10px;
+}
+
+.quick_links ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact {
+    padding: 10px 25px;
+}
+
+.foot{
+    background-color: rgb(27, 78, 216);
+    padding: 10px 0;
+}
+
+@media only screen and (min-width:768px){
+    .top-contact{
+        display: flex;
+    }
+
+    .top-page a{
+        padding: 10px 30px;
+    }
+    .top-page{
+        padding-bottom: 50px;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    .menu-bar{
+        display: flex;
+    }
+
+    .menu-bar .menu-list{
+        display: block;
+    }
+
+    .menu-bar ul{
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .menu-bar ul li{
+        margin: 5px 10px 0px;
+        border-bottom: none;
+
+    }
+
+    .menu-bar ul a{
+        font-size: 20px;
+    }
+
+    .home-container .image{
+        display: block;
+        width: 200%;
+        
+    }
+
+    .home-container{
+        display: flex;
+        padding: 30px;
+    }
+
+    .home-container img{
+        height: 75%;
+        width: 100%;
+    }
+
+    .features .container{
+        display: flex;
+    }
+
+    .features{
+        padding-bottom: 70px;
+    }
+
+    .team .container{
+        display: flex;
+    }
+
+    .menu-bar ul{
+        margin-right: 15px;
+    }
+
+    
+}
+
+@media only screen and (min-width:1008px){
+    .menu-bar ul{
+        padding-right: 80px;
+    }
+    
+    .menu-bar .mofa{
+        margin-left: 130px;
+    }
+
+    .home-container img{
+        height: 100%;
+    }
+
+    .home-container .image{
+        width: 120%;
+    }
+
+    .home-container{
+        padding: 20px 50px;
+    }
+
+    .top-page{
+        padding: 50px;
+        margin-top: 30px;
+    }
+
+    .home-container{
+        margin: 0px 50px 20px;
+        padding: 0px;
+    }
+
+    .large-container{
+        display: flex;
+        margin: 0 20px;
+    }
+
+    .packages .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .packages .container .pack{
+        margin: 0 30px;
+    }
+
+    .about-content-2 .inner-about{
+        display: flex;
+        margin-right: 30px;
+    }
+
+    .about .all-about{
+        display: flex;
+        margin: 20px 80px;
+    }
+
+    .inner-about .about-us{
+        width: 250px;
+        height: 150px;
+    }
+
+    .team .outer-con{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .team .container{
+        gap: 80px;
+    }
+
+    .footer{
+        background-color: #010b3b;
+        display: flex;
+        color: #fff;
+    }
+    
+    .footer .about{
+        width: 35rem;
+        padding: 20px 40px 20px 60px;
+        font-size: small;
+    }
+    
+    .footer .quick_links{
+        width: 30rem;
+        padding: 20px 0px;
+        font-size: medium;
+    }
+    
+    .footer .quick_links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer .quick_links a:hover{
+        color: var(--pink);
+    }
+    
+    .footer .quick_links ul{
+        list-style: none;
+    }
+    
+    .footer .contact{
+        width: 35rem;
+        padding: 20px 0px;
+        font-size: small;
+    }
+
+
+    
+}
