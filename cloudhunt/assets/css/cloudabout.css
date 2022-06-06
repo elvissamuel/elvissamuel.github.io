@@ -1,0 +1,52 @@
+@import "cloudhunt.css";
+
+.top{
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.486);
+    padding: 60px 100px;
+}
+
+.top span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.top a{
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.about-con .image{
+    padding: 10px 30px;
+}
+
+.about-con ul{
+    columns: 2;
+    list-style: square;
+    padding: 10px 20px;
+}
+
+.about-con ul li{
+    padding: 10px 0px;
+}
+
+.about-con .content{
+    padding: 20px 30px;
+}
+
+@media only screen and (min-width:768px){
+    .about-con{
+        display: flex;
+        padding: 40px 60px;
+    }
+
+    .about-con .image{
+        padding: 30px;
+    }
+
+    .about-con .content{
+        width: 70%;
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,17 @@
+@import "cloudhunt.css";
+
+.top{
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.486);
+    padding: 60px 100px;
+}
+
+.top span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.top a{
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+}

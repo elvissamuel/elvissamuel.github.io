@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.home-page{
+    margin-bottom: 30px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    color: #076d4d;
+    font-size: 25px;
+    padding-right: 0;
+    border-bottom: .5px solid;
+}
+
+#toggler{
+    display: none;
+}
+
+.menu-nav{
+    display: none;
+}
+
+.navigation #toggler:checked ~ .menu-nav{
+    display: block;
+}
+
+.top-menu .bars{
+    padding: 10px 20px;
+}
+
+.top-menu .cloud{
+    padding: 10px;
+}
+
+.signup{
+    display: none;
+}
+
+.signup ul{
+    list-style: none;
+    color: black;
+    font-size: 16px;
+}
+
+.signup ul li{
+    float: right;
+}
+
+.signup .number{
+    padding: 15px 10px;
+}
+
+.signup .login{
+    background-color: #076d4d;
+    padding: 17px;
+    color: #fff;
+    border-right: .3px solid;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup a:hover{
+    color: #ffc107;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .menu-nav{
+    margin-left: 20px;
+}
+
+.navigation .menu-nav li{
+    padding: 5px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.menu-nav a:hover{
+    color: #ffc107;
+    background-color: #034c35e1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.navigation .menu-nav ul{
+    list-style: none;
+}
+
+.navigation .search{
+    display: none;
+}
+
+.home-page .content{
+    background-color: #076d4d;
+    color: #fff;
+    padding: 35px 30px;
+}
+.home-page .content h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.home-page .content h5{
+    color: #fff;
+    text-align: left;
+}
+
+.home-page a{
+    background-color: #ffc107;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-page a:hover{
+    color: #034c35;
+    font-weight: 600;
+}
+
+.plans h6, .plans h3{
+    text-align: center;
+    color: #076d4d;
+}
+
+.plans .package{
+    margin: 20px 0px;
+    padding: 25px 10px;
+    border-right: 1px solid #ccc;
+    font-size: 15px;
+}
+.plans{
+    padding: 10px 30px;
+    border-right: 1px solid;
+    border-color: rgb(184, 176, 176);
+    margin: 0px 15px 0px 0px;
+}
+
+.plans .package i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.plans .package ul{
+    list-style: none;
+    padding: 0;
+}
+
+.plans .package ul li{
+    padding: 8px 0px;
+}
+.plans .package span{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.plans .package .link{
+    background-color: #198754;
+    border-radius: 5px;
+    padding: 6px 0;
+    text-align: center;
+}
+
+.plans .package a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.plans .package a:hover{
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.experience{
+    padding: 50px 30px;
+    text-align: center;
+    background-color: rgba(235, 230, 230, 0.568);
+    margin-bottom: 20px;
+}
+
+.experience h3{
+    color: #076d4d;
+    font-weight: 600;
+}
+
+.achievement #top{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.achievement #bottom{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.achievement p{
+    line-height: 20px;
+}
+
+.experience .achievement{
+    margin: 35px 0;
+    padding: 5px 0px;
+}
+
+.services{
+    padding: 10px;
+}
+
+.services h4{
+    color: #076d4d;
+    text-align: center;
+}
+
+.services h6{
+    text-align: center;
+}
+
+.inner-con .service{
+    text-align: center;
+    padding: 10px 30px;
+    
+}
+
+.inner-con .service i{
+    font-size: 40px;
+    text-align: center;
+    color: #198754;
+}
+
+.inner-con .service p{
+    font-size: 11px;
+    color: rgb(114, 111, 111);
+}
+
+.services .inner-con{
+    display: flex;
+    justify-content: center;
+}
+
+.our-blog h3{
+    color: #076d4d;
+    font-weight: bold;
+    text-align: center
+}
+
+.our-blog p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.our-blog{
+    padding: 20px 30px;
+}
+
+.blog span{
+    font-size: 10px;
+}
+ .blog h6{
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .blog{
+     background-color: rgba(236, 234, 234, 0.589);
+     padding: 15px 25px;
+     margin: 20px 0px;
+     box-shadow: 1px 1px 4px 2px rgb(155, 149, 149);
+ }
+ 
+.about-us{
+    background-color: #034c35;
+    padding: 20px;
+    color: #fff;
+}
+
+.about p{
+    font-size: 13px;
+}
+
+.about-us ul{
+    font-size: 13px;
+    list-style: none;
+}
+
+.about{
+    margin: 25px 0;
+}
+
+.about-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.about-link a:hover{
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.about-link li{
+    border-bottom: 1px solid;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.about-us .about-contact li{
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.foot{
+    background-color: #02422e;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+
+
+
+@media only screen and (min-width:768px){
+   .top-menu .bars{
+        display: none;
+    }
+    .top-menu .signup{
+        display: block;
+    }
+    .navigation .menu-nav{
+        display: block;
+    }
+    .navigation .menu-nav li{
+        float: left;
+        margin: 10px;
+        padding: 10px;
+    }
+    .plans .container{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .experience .container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .experience .achievement{
+        margin: 20px 40px;
+    }
+
+    .our-blog .container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .about-us{
+        display: flex;
+        gap: 35px;
+        padding: 30px;
+    }
+
+    .about{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+    }
+    .about-link{
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width:1080px){
+    .home-page{
+        display: flex;
+        height: 65vh;
+    }
+
+    .home-page .content{
+        padding: 55px 30px;
+    }
+
+
+
+    .home-page img{
+        height: 100%;
+    }
+
+    .home-page .content{
+        width: 55%;
+    }
+
+    .services .outer-con{
+        display: flex;
+    }
+    .inner-con .service p{
+        font-size: 15px;
+        color: rgb(114, 111, 111);
+    }
+
+    .about-link{
+        width: 40%;
+    }
+
+    .inner-con .service i{
+        font-size: 55px;
+        margin: 15px 0;
+    }
+    
+    .plans .container .package p{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .plans .container .package ul{
+        padding: 10px 0;
+    }
+
+    .plans .container .package{
+        padding-right: 30px;
+    }
+
+}
