@@ -892,7 +892,7 @@ input[type="checkbox"]{
     .bottom-subscribe{
         padding: 15px;
         text-align: center;
-        margin: 20px;
+        margin: 20px 70px;
         background-color: rgba(204, 204, 204, 0.356);
     }
     
@@ -914,14 +914,14 @@ input[type="checkbox"]{
     }
     
     .bottom-subscribe input[type="text"]{
-        width: 80%;
+        width: 90%;
         padding: 5px ;
         border: 1px solid #ff8b3e;
-        height: 50px;
+        height: 40px;
     }
     
     .bottom-subscribe button{
-        width: 80%;
+        width: 90%;
         background-color: black;
         color: #fff;
         padding: 5px;
