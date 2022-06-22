@@ -758,11 +758,11 @@ input[type="checkbox"]{
     }
 
     .job-state ul{
-        font-size: 12px;
+        font-size: 11px;
 
     }
     .job-state button{
-        font-size: 11.5px;
+        font-size: 11px;
     }
 
     .featured-jobs h4{
@@ -852,7 +852,7 @@ input[type="checkbox"]{
         column-gap: 0px;
     }
     .job-state button{
-        font-size: 11.5px;
+        font-size: 11px;
     }
     .job-state ul li{
         padding: 5px;
