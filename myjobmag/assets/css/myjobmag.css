@@ -290,21 +290,16 @@ input[type="checkbox"]{
 .featured-jobs ul{
     border: 1px solid #ccc;
     padding: 20px 0px 20px 40px;
+    
 }
 .featured-jobs li{
     font-size: 12px;
     color: rgb(114, 112, 112);
     font-weight: 600;
     margin: 7px 0px;
+    
 }
 
-.featured-jobs input{
-    font-size: 11px;
-    background-color: #ff8b3e;
-    padding: 3px;
-    color: #fff;
-    border: none;
-}
 .featured-jobs li a:hover{
     color: #ff8b3e;
 }
@@ -864,10 +859,6 @@ input[type="checkbox"]{
         padding-bottom: 50px;
     }
 
-    .bottom-subscribe{
-        padding: 25px 100px;
-        margin: 40px 70px;
-    }
 
     .box-con{
         display: flex;
@@ -879,11 +870,13 @@ input[type="checkbox"]{
     }
     .featured-jobs ul{
         columns: 2;
+        gap: 0px;
     }
 
     .featured-jobs ul li{
         margin: 10px 0;
         padding: 5px 30px;
+        text-align: left;
     }
     .box-con .com-con{
         margin-bottom: 0px;
@@ -927,6 +920,53 @@ input[type="checkbox"]{
         padding: 5px;
         margin: 5px;
         height: 45px;
+    }
+
+
+
+
+    .bottom-subscribe2{
+        padding: 15px;
+        text-align: center;
+        margin: 20px 70px;
+        background-color: rgba(204, 204, 204, 0.356);
+    }
+    
+    .bottom-subscribe2 h6{
+        font-weight: 600;
+    }
+    
+    .bottom-subscribe2 .line{
+        width: 35px;
+        height: 8px;
+        background-color: #ff8b3e;
+        margin-left: 47%;
+        margin-bottom: 5px;
+    }
+    
+    .bottom-subscribe2 p{
+        font-size: 13px;
+        color: rgb(116, 112, 112);
+    }
+    
+    .bottom-subscribe2 input[type="text"]{
+        width: 40%;
+        padding: 5px ;
+        border: 1px solid #ff8b3e;
+        height: 40px;
+    }
+    
+    .bottom-subscribe2 button{
+        width: 15%;
+        background-color: #ff8b3e;
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+        height: 45px;
+        border: none;
+    }
+    .bottom-subscribe .sub{
+        display: flex;
     }
    
 }
