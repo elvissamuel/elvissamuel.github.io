@@ -24,7 +24,7 @@
 
 .image{
     display: flex;
-    gap: 5px;
+    align-items: center;
 }
 
 .menu-toggle i{
@@ -37,6 +37,7 @@
 }
 .left-nav .menu-list li{
     list-style: none;
+    border-bottom: 2px solid #ccc;
 }
 
 
@@ -46,7 +47,7 @@
 
 .menu-list ul li .sub-menu li{
     float: none;
-    margin-left: -20px;
+    margin-left: -42px;
     padding: 10px 10px;
     border-bottom: 1px solid #ccc;
     background-color: rgb(241, 237, 237);
@@ -66,6 +67,7 @@
 
 .menu-list ul li .sub-menu{
     display: none;
+    margin-top: 5px;
 }
 
 
@@ -127,7 +129,7 @@
 
 .flag .sub-menu ul li{
     margin: 10px 0px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 
@@ -142,7 +144,7 @@
     background-color: #fff;
     padding: 0px;
     margin: 0px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .sub-menu input{
@@ -823,8 +825,8 @@ input[type="checkbox"]{
     
     .left-nav .menu-list li{
         float: left;
-        font-size: 14px;
-        margin-left: 5px;
+        font-size: 12px;
+        margin-left: 0px;
         font-weight: 500;
         
     }
@@ -835,7 +837,9 @@ input[type="checkbox"]{
 
     .image .flag{
         display: block;
-        height: 28px;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 3px;
     }
 
     .signup-login .img1{
@@ -921,9 +925,6 @@ input[type="checkbox"]{
         margin: 5px;
         height: 45px;
     }
-
-
-
 
     .bottom-subscribe2{
         padding: 15px;
