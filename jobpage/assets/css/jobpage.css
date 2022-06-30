@@ -1,0 +1,645 @@
+@import "myjobmag.css";
+
+.body{
+    padding: 0 10px;
+}
+.search{
+    display: none;
+}
+
+.job-alert{
+    display: none;
+}
+
+.second-menu{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.second-menu__button{
+    margin: 0px -4px;
+    border-right: 1px solid;
+    padding: 5px 8px 3px 8px;
+    font-size: 11px;
+    width: 34%;
+    border-color: #ccc;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px rgb(204, 201, 201);
+}
+
+.second-menu__button:hover{
+    background-color: rgb(233, 229, 229);
+}
+
+.job{
+    padding: 20px 10px;
+}
+.job__title{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(104, 99, 99);
+
+}
+.job__other-jobs{
+    font-size: 11.5px;
+}
+
+.job__other-jobs a{
+    text-decoration: none;
+    color: black;
+}
+.job__other-jobs a:hover{
+    text-decoration: underline;
+}
+.job__date{
+    font-size: 10px;
+    margin: 15px 0;
+}
+.job__date div{
+    padding: 3px 0px;
+}
+.job__date span{
+    font-size: 11px;
+}
+.fa-calendar{
+    color: #f63;
+}
+.fa-clock{
+    color: rgb(37, 121, 218);
+}
+
+.job__save-send{
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.job__save-send a{
+    text-decoration: none;
+    color: black;
+}
+.fa-bookmark, .fa-envelope, .fa-flag{
+    padding: 5px 16px;
+    border: 1px solid #f63;
+    font-size: 11px;
+}
+.subscribe{
+    background-color: rgb(235, 230, 230);
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.subscribe button{
+    padding: 5px 7px;
+    font-size: 12px;
+    background-color: #f63;
+    border: none;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    width: 20%;
+    height: 35px;
+}
+
+.subscribe input[type="text"]{
+    border: none;
+    padding: 3px 8px;
+    padding-top: 0px;
+    width: 65%;
+    height: 35px;
+}
+
+.about-company{
+    padding: 15px;
+    font-size: 14px;
+}
+
+.fa-angles-right{
+    margin-left: 0px;
+    color: red;
+    font-size: 12px;
+}
+
+
+.about-company a{
+    text-decoration: none;
+}
+
+.job-description{
+    padding: 15px;
+    font-size: 13.5px;
+}
+.job-description .job-description__role{
+    padding: 5px 10px;
+    color: rgb(16, 106, 180);
+    font-size: 14px;
+    background-color: #fff;
+    margin: 10px 0px 20px 0px;
+    box-shadow: 1px 1px 2px #ccc;
+    width: 80px;
+}
+
+.job-description .title{
+    color: #999;
+    font-weight: 600;
+    width: 20%;
+    margin-right: 10%;
+
+}
+
+.job-description .body{
+    margin-left: 10px;
+}
+.job-description ul{
+    padding-left: 5px;
+}
+.job-description li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 10px 0px;
+}
+.job-description__description{
+    padding: 15px;
+    font-size: 13px;
+}
+.job-description a{
+    color: #f63;
+}
+.job-description a:hover{
+    color: rgb(9, 68, 145);
+}
+
+.apply{
+    text-align: center;
+}
+.apply__button{
+    padding: 5px;
+    width: 90%;
+    border-radius: 20px;
+    margin: 5px 0px;
+    color: #fff;
+    background-color: #f63;
+    border: none;
+}
+.apply__button:hover{
+    background-color: rgb(202, 53, 4);
+}
+
+.apply a{
+    text-decoration: none;
+    color: black;
+}
+
+.share{
+    margin: 15px 0px;
+}
+.fa-bookmark, .fa-envelope, .fa-flag{
+    color: #ff8b3e;
+} 
+.share i{
+    font-size: 25px;
+    color: rgb(39, 102, 184);
+}
+.share span{
+    font-size: 14px;
+    color: #f63;
+}
+.apply__options{
+    margin: 20px 0px;
+}
+.apply__options i{
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 30%;
+}
+.apply__options i:hover{
+    background-color: rgba(245, 202, 188, 0.5);
+}
+
+
+
+.bottom-navi{
+    text-align: center;
+}
+.bottom-navi a{
+    width: 95%;
+    text-decoration: none;
+}
+.bottom-navi .vacancies{
+    background-color: rgb(43, 41, 41);
+    padding: 8px 20px;
+    font-size: 12px;
+    margin: 10px;
+}
+.bottom-navi .vacancies a{
+    color: #fff;
+}
+.vacancies i{
+    float: right;
+}
+
+.bottom-navi .backhome{
+    background-color: #ccc;
+    padding: 8px 20px;
+    font-size: 12px;
+    margin: 10px;
+}
+.bottom-navi .backhome a{
+    color: black;
+}
+.backhome i{
+    color: red;
+    float: left;
+}
+
+.bottom-joblist h5{
+    color: #999;
+}
+
+.bottom-joblist{
+    margin: 45px 15px;
+}
+.bottom-joblist ul{
+    list-style: none;
+}
+.bottom-joblist ul li::before{
+    font: var(--fa-font-solid);
+    content: "\f14a";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 10px;
+    color: #f63;
+    font-size: 12px;
+}
+.bottom-joblist li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #999;
+}
+.bottom-joblist li a:hover{
+    color: #f63;
+}
+.dreamjob{
+    margin: 15px;
+    border-left: 2px solid #f63;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+.dreamjob p{
+    font-size: 12px;
+    color: rgb(85, 83, 83);
+}
+.dreamjob h6{
+    color: rgb(117, 115, 115);
+    font-weight: 600;
+}
+.dreamjob button{
+    font-size: 12px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: -7px;
+    background-color: #f63;
+    color: #fff;
+    border: none;
+    width: 25%;
+    height: 35px;
+}
+.dreamjob input[type="text"]{
+    padding: 3px 0px;
+    outline: none;
+    border: 1px solid #f63;
+    padding-left: 5px;
+    width: 65%;
+    height: 35px;
+}
+
+.other-companies{
+    margin: 40px 15px;
+    border: 1px solid rgb(233, 229, 229);
+    padding: 20px;
+    border-right: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.other-companies h5{
+    color: #999;
+}
+.other-companies ul{
+    list-style: none;
+}
+.other-companies li::before{
+    font: var(--fa-font-solid);
+    content: "\f14a";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 10px;
+    color: #f63;
+    font-size: 12px;
+}
+.other-companies li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #999;
+}
+.other-companies li a:hover{
+    color: #f63;
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+    padding-left: 7px;
+  }
+  ::-moz-placeholder {
+    font-size: 12px;
+    padding-left: 7px;
+  }
+  :-ms-input-placeholder {
+    font-size: 12px;
+    padding-left: 7px;
+  }
+  ::placeholder {
+    font-size: 12px;
+    padding-left: 7px;
+  }
+
+  .popular-jobs{
+    margin: 15px;
+  }
+  .popular-jobs li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(59, 56, 56);
+  }
+  .popular-jobs a:hover{
+    color: #f63;
+  }
+
+  .popular-jobs h6{
+    border-bottom: 1px solid #9999;
+    padding-bottom: 5px;
+  }
+  .popular-jobs li{
+    border-bottom: 1px solid rgb(228, 226, 226);
+    padding-bottom: 5px;
+  }
+  .popular-jobs li::before{
+    font: var(--fa-font-solid);
+    content: "\f14a";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 10px;
+    color: #999;
+    font-size: 12px;
+  }
+  .popular-jobs ul{
+    list-style: none;
+  }
+  .popular-jobs .hotjobs{
+    background-color: rgba(48, 45, 45, 0.6);
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 3px 10px;
+    border-radius: 3px;
+  }
+  .popular-jobs .hotjobs i{
+    color: #fff;
+    font-size: 9px;
+  }
+  .popular-jobs .hotjobs a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .popular-jobs .hotjobs:hover{
+    background-color: #f63;
+  }
+
+  .career-advice1{
+    margin: 25px 20px;
+  }
+  .career-advice1 h6{
+    text-align: center;
+    border-radius: 5px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin: 20px 60px;
+  }
+  .career-advice1 ul{
+    list-style: none;
+    border: 1px solid rgb(221, 216, 216);
+    padding: 0px;
+  }
+  .career-advice1 ul li{
+    padding: 15px 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .career-advice1 ul li a{
+    text-decoration: none;
+    color: rgb(44, 68, 59);
+    
+  }
+  .career-advice1 ul li a:hover{
+    color: #f63;
+  }
+  .career-advice1 ul .button{
+    background-color: rgb(75, 72, 72);
+    text-align: center;
+    padding-top: 12px 8px;
+    padding-bottom: 8px;
+  }
+  .career-advice1 ul .button label{
+    float: right;
+    font-size: 13px;
+  }
+  .career-advice1 ul .button a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bottom-subscribe{
+    margin: 0px;
+    margin-top: 60px;
+  }
+  .bottom-subscribe input{
+    outline: none;
+  }
+.footer-con ul li{
+    font-size: 13px;
+}
+
+
+@media only screen and (min-width:400px){
+    .job__date{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer .container1{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 50px;
+    }
+  
+}
+@media only screen and (min-width:500px){
+    .search{
+        display: block;
+    }
+    .second-menu{
+        display: none;
+    }
+    .apply-share{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 25px;
+    }
+    .apply-button{
+        width: 30%;
+    }
+
+    .apply__options{
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 0px;
+
+    }
+
+    .apply__options i{
+        padding: 5px;
+        width: 15%;
+    }
+    .bottom-subscribe .sub{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom-subscribe input[type='text']{
+        height: 40px;
+        width: 50%;
+    }
+    .bottom-subscribe button{
+        height: 40px;
+        width: 150px;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        margin-left: 5px;
+        background-color: #ff8b3e;
+        border-radius: 3px;
+    }
+    
+}
+@media only screen and (min-width:600px){
+    .date-save{
+        display: flex;
+        justify-content: space-around;
+    }
+    .bottom-navi{
+        display: flex;
+        justify-content: space-around;
+    }
+    .backhome{
+        width: 25%;
+    }
+    .vacancies{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:700px){
+    .apply{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 15px 10px;
+
+    }
+    .apply-share{
+        width: 50%;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .apply__options{
+        width: 50%;
+        margin: 0px;
+    }
+    .apply__options i{
+        width: 25%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .apply .apply__button{
+        width: 100%;
+        font-size: 14px;
+    }
+    .share i{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:800px){
+    .other-companies ul{
+        columns: 2;
+    }
+    .other-companies ul li{
+        margin-top: 5px;
+    }
+    .bottom-joblist ul{
+        columns: 2;
+    }
+    .bottom-joblist ul li{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:1140px){
+    .big-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 120px;
+        gap: 2%;
+    }
+    .left-body{
+        border-left: 1px solid rgb(236, 234, 234);
+        border-right: 1px solid rgb(238, 235, 235);
+        border-radius: 5px;
+    }
+    .right-body{
+        width: 35%;
+        min-width: 200px;
+    }
+    .date-save{
+        justify-content: space-between;
+    }
+    .job-description li{
+        gap: 0px;
+        margin: 10px 0px;
+    }
+    .job-description li .body{
+        margin-left: -40px;
+    }
+    .job__title{
+        font-size: 20px;
+    }
+}
+
+
+
