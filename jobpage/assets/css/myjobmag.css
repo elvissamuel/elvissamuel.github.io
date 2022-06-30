@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-menu{
+    background-color: #ccc;
+}
+
+.left-nav{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-toggle{
+    background-color: #f63;
+    padding: 5px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle i{
+    font-size: 20px;
+}
+
+.image .flag{
+    padding: 0px 15px 0px 4px;
+    background-color: #fff;
+}
+.left-nav .menu-list li{
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.menu-list ul li .sub-menu ul{
+    margin-top: 10px;
+}
+
+.menu-list ul li .sub-menu li{
+    float: none;
+    margin-left: -42px;
+    padding: 10px 10px;
+    border-bottom: 2px solid #ccc;
+    background-color: rgb(241, 237, 237);
+    width: 200px;
+    transition: all 500ms ease-in;
+
+}
+
+.menu-list ul li .sub-menu li a{
+    color: rgb(56, 53, 53);
+}
+
+
+.menu-list ul li .sub-menu li:hover{
+    background-color: #ccc;
+}
+
+
+
+.menu-list ul li .sub-menu{
+    display: none;
+    margin-top: 5px;
+}
+
+
+.menu-list ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+
+.left-nav .menu-list{
+    display: none;
+    position: relative;
+}
+
+.left-nav .menu-list li a{
+    text-decoration: none;
+}
+
+.left-nav .menu-list li{
+    float: left;
+    font-size: 11px;
+    position: relative;
+    padding: 10px;
+    transition: all 400ms linear;
+
+}
+
+.left-nav .menu-list li:hover{
+    background-color: rgba(226, 210, 210, 0.699);
+    border-bottom: 2px solid #ff8b3e;
+}
+
+
+.signup-login .img1:after{
+    content: ' Nigeria';
+}
+
+.search input[type="text" ]{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 90%;
+    max-width: 600px;
+    height: 40px;
+    outline: none;
+    background-image: url(../imgs/search-icon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.image .flag{
+    display: none;
+    font-size: 11px;
+    border-radius: 4px;
+}
+.image .flag span{
+    display: none;
+}
+
+
+.flag .sub-menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    
+}
+
+.flag .sub-menu ul li{
+    margin: 10px 0px;
+    font-size: 9px;
+    
+}
+
+
+
+.flag .sub-menu ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.flag .sub-menu{
+    display: none;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+.sub-menu input{
+    border: 1px solid;
+}
+
+#toggler1:checked ~ .sub-menu{
+    display: block;
+    position: absolute;
+}
+
+
+.side-menu{
+    padding: 20px 0;
+    background-color: rgb(236, 231, 231);
+}
+
+.side-menu button{
+    padding: 2px 10px;
+    color: black;
+    background-color: #999;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.side-menu ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.side-menu {
+    display: none;
+}
+
+
+
+#toggler:checked ~ .side-menu{
+    display: block;
+}
+
+
+.side-menu li{
+    margin: 5px 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+.side-menu li:hover{
+    background-color: #ccc;
+}
+
+
+.side-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.search{
+    text-align: center;
+    padding: 10px 5px;
+    background-color: rgb(231, 226, 226);
+}
+
+.search input[type="submit"]{
+    display: none;
+    max-width: 200px;
+}
+
+/*.search::before{
+    content: '';
+    background: rgba(0, 0, 0, .4) url(../imgs/bg1.jpg);
+    position: absolute; top: 0; bottom: 0; right: 0; left: 0;
+    background-size: cover;
+    opacity: .4;
+}*/
+
+.search button{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    border: none;
+    background-color: #f63;
+
+}
+
+.signup-login{
+    display: none;
+}
+
+
+.job-alert{
+    border: 1px solid #ccc;
+    margin: 50px 10px 10px 10px;
+    padding: 10px 0 10px 0px;
+    padding-left: 10px;
+}
+
+.job-alert h6{
+    color: #963;
+    font-size: 13px;
+    font-weight: 600;
+}
+.job-alert input[type='submit']{
+    position: relative;
+    left: -8px;
+    background-color: #ff8b3e;
+    border: none;
+    color: #fff;
+    padding: 6px 5px;
+}
+
+.job-alert h5{
+    color: rgb(155, 151, 151);
+}
+
+.job-alert input[type='text']{
+    padding: 5px 0px 5px 8px;
+    border: 1px solid #ff8b3e;
+    width: 65%;
+    outline: none;
+}
+
+.job-alert input{
+    margin: 0;
+}
+
+.featured-jobs{
+    margin: 15px;
+}
+
+.featured-jobs h4{
+    border-left: 3px solid #ff8b3e;
+    padding-left: 8px;
+    margin: 30px 0px;
+    font-size: 16px;
+}
+
+.featured-jobs ul{
+    border: 1px solid #ccc;
+    padding: 20px 0px 20px 40px;
+    
+}
+.featured-jobs li{
+    font-size: 12px;
+    color: rgb(114, 112, 112);
+    font-weight: 600;
+    margin: 7px 0px;
+    
+}
+
+.featured-jobs li a:hover{
+    color: #ff8b3e;
+}
+
+.featured-jobs li a{
+    text-decoration: none;
+    color: rgb(95, 91, 91);
+    padding: 0px;
+}
+
+.featured-jobs button{
+    padding: 5px 7px;
+    background-color: #ff8b3e;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+}
+
+.job-box{
+    padding: 0 15px;
+}
+
+.job-box div a{
+    text-decoration: none;
+}
+.job-box span{
+    font-size: 12px;
+}
+
+.job-box button{
+    font-size: 10px;
+    border: 2px solid #f63;
+    color: #f63;
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+.job-box h5{
+    border-left: 3px solid #f63;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+.job-box h6{
+    color: rgb(90, 88, 88);
+    font-size: 14px;
+    
+}
+
+.job-box i{
+    color: #ff8b3e;
+    font-size: 11px;
+    padding-top: 0;
+    margin-top: 0px;
+}
+.job-box p{
+    font-size: 12px;
+    color: rgb(134, 131, 131);
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+.job-box div{
+    margin: 35px 0px;
+}
+.job-box a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(155, 150, 150);
+}
+
+.list ul{
+    list-style: none;
+    margin: 0;
+}
+
+.list ul li{
+    float: left;
+    margin: 0 3px;
+    border: 1px solid;
+    padding: 0 7px;
+}
+
+.list li:hover{
+    background-color: #ff8b3e;
+}
+
+.bottom-subscribe{
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(204, 204, 204, 0.356);
+}
+
+.bottom-subscribe h6{
+    font-weight: 600;
+}
+
+.bottom-subscribe .line{
+    width: 35px;
+    height: 8px;
+    background-color: #ff8b3e;
+    margin-left: 47%;
+    margin-bottom: 5px;
+}
+
+.bottom-subscribe p{
+    font-size: 13px;
+    color: rgb(116, 112, 112);
+}
+
+.bottom-subscribe input[type="text"]{
+    width: 80%;
+    padding: 5px ;
+    border: 1px solid #ff8b3e;
+    height: 50px;
+}
+
+.bottom-subscribe button{
+    width: 80%;
+    background-color: #ff8b3e;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+}
+
+.job-state{
+    border: 1px solid #ccc;
+    margin: 0px 25px;
+    padding: 20px 5px;
+    padding-bottom: 50px;
+
+}
+
+.job-state h6{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.job-state ul{
+    font-size: 12px;
+    list-style: none;
+}
+
+.job-state ul a{
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    padding: 40px 0;
+}
+
+.job-state ul li{
+    padding: 3px;
+}
+
+.job-state button{
+    float: right;
+    background-color: #ff8b3e;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-size: 11.5px;
+    margin-right: 20px;
+}
+
+.job-cat{
+    padding: 0px 10px;
+}
+
+.box-title h3{
+    text-align: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    color: #999;
+    margin: 10px 80px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.career-advice ul{
+    border: 1px solid #ccc;
+    margin: 20px;
+    list-style: none;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.career-advice ul a{
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+}
+
+.career-advice ul li{
+    padding: 12px 7px;
+    margin:0;
+}
+.career-advice button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(78, 74, 74);
+    color: #fff;
+    font-weight: 600;
+}
+
+.current-jobs{
+    margin: 25px;
+    border-left: 4px solid #ccc;
+    padding: 10px 0;
+    padding-left: 10px;
+
+}
+.current-jobs h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.current-jobs h6{
+    font-size: 13px;
+    color: rgb(95, 92, 92);
+    font-weight: 600;
+}
+.current-jobs p{
+    font-size: 11.5px;
+    color: rgb(107, 104, 104);
+}
+
+.footer{
+    background-color: #ccc;
+    padding: 40px 0px 20px;
+}
+
+.footer-con{
+    margin: 0px 0px;
+    padding: 0px 5px;
+    padding-bottom: 50px;
+
+}
+
+.footer-con h6{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    
+
+}
+
+.footer-con ul{
+    font-size: 13px;
+    list-style: none;
+}
+
+.footer-con ul li a{
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+}
+.footer-con li a:hover{
+    color: #f63;
+    text-decoration: underline;
+}
+
+.footer-con ul li{
+    padding: 3px;
+}
+
+.footer-con ul i{
+    font-size: 26px;
+    margin: 10px 3px;
+}
+
+.foot ul li{
+    display: inline-block;
+    font-size: 12px;
+    border-right: 1px solid #999;
+    padding-right: 7px;
+}
+
+.foot ul{
+    margin: 10px 20px;
+    border-top: 1px solid #999;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.foot a{
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+}
+
+.foot span{
+    text-align: center;
+    font-size: 12px;
+}
+
+.box-con .com-img{
+    display: none;
+}
+
+
+@media only screen and (min-width:370px){
+    .image .flag{
+        display: block;
+    }
+ 
+    
+   
+}
+
+@media only screen and (min-width:500px){
+    /*.flag .img2:after{
+        content: ' Nigeria';
+    }*/
+
+   .image .flag span{
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .image i{
+        display: none;
+    }
+
+    .image .flag{
+        margin-left: 50px;
+        font-size: 12px;
+        padding: 5px 20px 5px 5px;
+    }
+
+    .search h5{
+        display: none;
+    }
+    .search input[type="text" ]{
+        margin: 20px;
+        border-radius: 0px;
+        padding: 5px;
+        border: none;
+        width: 70%;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .search input[type="submit"]{
+        width: 20%;
+        height: 50px;
+        margin-left: -30px;
+        border: none;
+        background-color: #f63;
+        color: #fff;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .search button{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:620px){
+    .image .flag{
+        display: none;
+    }
+
+    .left-nav{
+        padding: 10px 10px;
+        justify-content: left;
+        gap: 5px;
+    }
+
+    
+
+
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 25px 0px 25px;
+        align-items: center;
+        
+    }
+
+    .signup-login{
+        display: block;
+    }
+
+    .signup-login button{
+        background-color: #ccc;
+        padding: 5px;
+        border: 1px solid;
+        font-size: 10.5px;
+        border-radius: 3px;
+    }
+
+    .signup-login button:hover{
+        background-color: rgba(241, 225, 225, 0.753);
+    }
+
+
+    .signup-login .img1{
+        display: inline;
+        background-color: #fff;
+        padding: 5px 20px 5px 5px;
+        font-size: 12px;
+    }
+    .box-con .com-img{
+        display: block;
+    }
+    .box-con{
+        display: flex;
+        gap: 12px;
+    }
+
+}
+
+@media only screen and (min-width:800px){
+   
+   .image .img3{
+    width: 130px;
+    height: 40px;
+   }
+
+    .job-alert{
+    display: none;
+   } 
+
+   .body-con{
+    display: flex;
+    padding: 0px 20px;
+   }
+
+   .left-body{
+    width: 75%;
+   }
+   .job-box i{
+    font-size: 12px;
+    }
+    .job-box div{
+        margin: 35px 0px;
+    }
+
+    .signup-login button{
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+
+    .bottom-subscribe{
+        padding: 25px;
+    }
+
+    .footer-con ul{
+        font-size: 13px;
+
+    }
+
+    .job-state ul{
+        font-size: 11px;
+
+    }
+    .job-state button{
+        font-size: 11px;
+    }
+
+    .featured-jobs h4{
+        font-size: 18px;
+    }
+
+    .job-box h5{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .footer .container{
+        display: flex;
+        gap: 10px;
+    }
+    .current-jobs p{
+        font-size: 13px;
+    }
+    .current-jobs h6{
+        font-size: 15px;
+    }
+
+    .current-jobs h3{
+        font-size: 18.5px;
+    }
+
+    .current-jobs{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px 15px;
+
+    }
+   
+}
+
+@media only screen and (min-width:1150px){
+
+    .left-body{
+        width: 90%;
+       }
+       .body-con{
+        display: flex;
+        padding: 0px 70px;
+       }
+       .nav-menu{
+        padding: 0 50px;
+       }
+    .left-nav .menu-list{
+        display: block;
+    }
+    .search input[type="text"]{
+
+    }
+
+    .left-nav .menu-list ul{
+        list-style: none;
+    }
+    
+    .left-nav .menu-list li a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .left-nav .menu-list li{
+        float: left;
+        font-size: 12px;
+        margin-left: 0px;
+        transition: all 400ms linear;
+        font-weight: 500; 
+        
+    }
+
+    .menu-toggle{
+        display: none;
+    }
+
+    .image .flag{
+        display: block;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 3px;
+    }
+
+    .signup-login .img1{
+        display: none;
+    }
+    .job-state ul{
+        font-size: 11px;
+        columns: 2;
+        column-gap: 0px;
+    }
+    .job-state button{
+        font-size: 11px;
+    }
+    .job-state ul li{
+        padding: 5px;
+    }
+
+    .job-state{
+        margin: 0px 65px;
+        padding: 20px 5px;
+        padding-bottom: 50px;
+    }
+
+
+    .box-con{
+        display: flex;
+        gap: 20px;
+    }
+
+    .career-advice{
+        margin: 0px 50px;
+    }
+    .featured-jobs ul{
+        columns: 2;
+        gap: 0px;
+    }
+
+    .featured-jobs ul li{
+        margin: 10px 0;
+        padding: 5px 30px;
+        text-align: left;
+    }
+    .box-con .com-con{
+        margin-bottom: 0px;
+    }
+
+    .bottom-subscribe{
+        padding: 15px;
+        text-align: center;
+        margin: 20px 70px;
+        background-color: rgba(204, 204, 204, 0.356);
+    }
+    
+    .bottom-subscribe h6{
+        font-weight: 600;
+    }
+    
+    .bottom-subscribe .line{
+        width: 35px;
+        height: 8px;
+        background-color: #ff8b3e;
+        margin-left: 47%;
+        margin-bottom: 5px;
+    }
+    
+    .bottom-subscribe p{
+        font-size: 13px;
+        color: rgb(116, 112, 112);
+    }
+    
+    .bottom-subscribe input[type="text"]{
+        width: 90%;
+        padding: 5px ;
+        border: 1px solid #ff8b3e;
+        height: 40px;
+    }
+    
+    .bottom-subscribe button{
+        width: 90%;
+        background-color: black;
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+        height: 45px;
+    }
+
+    .bottom-subscribe2{
+        padding: 15px;
+        text-align: center;
+        margin: 20px 70px;
+        background-color: rgba(204, 204, 204, 0.356);
+    }
+    
+    .bottom-subscribe2 h6{
+        font-weight: 600;
+    }
+    
+    .bottom-subscribe2 .line{
+        width: 35px;
+        height: 8px;
+        background-color: #ff8b3e;
+        margin-left: 47%;
+        margin-bottom: 5px;
+    }
+    
+    .bottom-subscribe2 p{
+        font-size: 13px;
+        color: rgb(116, 112, 112);
+    }
+    
+    .bottom-subscribe2 input[type="text"]{
+        width: 40%;
+        padding: 5px ;
+        border: 1px solid #ff8b3e;
+        height: 40px;
+    }
+    
+    .bottom-subscribe2 button{
+        width: 15%;
+        background-color: #ff8b3e;
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+        height: 45px;
+        border: none;
+    }
+    .bottom-subscribe .sub{
+        display: flex;
+    }
+   
+}
+
