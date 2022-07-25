@@ -75,6 +75,11 @@
     font-weight: bold;
 }
 
+input[type="checkbox"]{
+    display: none;
+}
+
+
 .bottom-nav ul{
     list-style: none;
     display: flex;
@@ -724,5 +729,19 @@
         margin-right: 10px;
         font-size: 25px;
     }
-    .navigation_button i
+    #toggler:checked ~ .navigation-container2{
+        display: block;
+    }
+    .navigation-container2 ul{
+        display: list-item;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .navigation-container2 ul li{
+        padding: 2px 0;
+        padding-right: 20px;
+    }
+    .navigation-container2 ul li:hover{
+        background-color: #8000804f;
+    }
 }
