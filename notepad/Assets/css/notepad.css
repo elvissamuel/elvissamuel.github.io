@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containa{
+    margin: 70px 0px 0px;
+    width: 40%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.note_list ul{
+    list-style: none;
+    margin: 10px 0;
+    padding: 0 25px;
+}
+
+.note_list ul li{
+    padding: 5px;
+    margin-bottom: 3px;
+    box-shadow: -1px 1px 2px #ccc;
+    font-size: 14px;
+}
+
+.note_list li i{
+    padding: 0 20px;
+    float: right;
+}
+
+.note_list span{
+    cursor: pointer;
+}
+.fa-times{
+    color: red;
+    cursor: pointer;
+}
+
+.fa-edit{
+    color: green;
+    cursor: pointer;
+}
+
+
+.head{
+    background-color:#ccc;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.head p{
+    margin-bottom: 10px;
+}
+
+.note_list label{
+    padding: 3px;
+    margin: 30px 25px;
+    font-size: 13px;
+    box-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+}
+
+.note_list #hide{
+    display: none;
+}
+.add_notes{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.add_notes input{
+    border: 1px solid;
+}
+
+.add_notes button{
+    font-size: 13px;
+    padding: 5px;
+    background-color: green;
+    color: #fff;
+}
+.note input{
+    border: 1px solid;
+    width: 300px;
+    padding: 5px 0px;
+    display: none;
+}
+
