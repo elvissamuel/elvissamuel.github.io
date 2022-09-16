@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #777;
+    background-image: url('../imgs/unsplash\ bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    padding: 4px 8px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.quote_body{
+    background-color: #fff;
+    color: #333;
+    width: 350px;
+    margin: 10px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#quote_owner{
+    color: red;
+    font-size: 18px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+#quote_button{
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
