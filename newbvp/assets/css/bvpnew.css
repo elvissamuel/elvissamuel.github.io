@@ -442,7 +442,7 @@ input::placeholder{
         padding: 10px 20px;
         border-radius: 15px;
     }
-    .menu li:hover{
+    .menu .menu-item:hover{
         background-color: #F24E1E;
     }
     .navigation__bar{
