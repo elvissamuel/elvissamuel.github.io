@@ -432,7 +432,6 @@ input::placeholder{
     }
     .menu{
         display: block;
-        margin-right: 120px;
     }
     .menu ul{
         display: flex;
@@ -453,7 +452,6 @@ input::placeholder{
     }
     .navigation__logo{
         width: 90px;
-        margin-left: 65px;
     }
 
     .about-container{
@@ -515,6 +513,12 @@ input::placeholder{
     }
 }
 @media only screen and (min-width:1000px){
+    .menu{
+        margin-right: 120px;
+    }
+    .navigation__logo{
+        margin-left: 65px;
+    }
     .home__content{
         margin-right: 500px;
     }
