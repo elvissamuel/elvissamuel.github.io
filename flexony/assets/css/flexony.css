@@ -110,8 +110,8 @@ label{
 
 }
 .hero_body{
-    color: #443c28;
-    margin: 20px 0px;
+    color: #000;
+    margin: 10px 0px;
     font-size: 16.5px;
     padding-right: 40px;
     max-width: 500px;
@@ -515,7 +515,7 @@ input::placeholder{
         padding-right: 130px;
     }
     .hero_body{
-        margin: 25px 0px;
+        margin: 10px 0px;
         font-size: 18px;
         max-width: 600px;
         line-height: 28px;

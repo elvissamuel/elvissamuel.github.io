@@ -179,6 +179,7 @@ label{
     line-height: 30px;
 }
 .about-us_button{
+    display: none;
     border-radius: 15px;
     padding: 10px 20px;
     font-size: 16px;
