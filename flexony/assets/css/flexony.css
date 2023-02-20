@@ -168,6 +168,11 @@ label{
     margin: 30px auto;
     text-align: center;
 }
+.vision-mission{
+    background-color: ;
+    display: flex;
+    align-items: center;
+}
 .mission_title{
     color: #13195D;
     font-size: 22px;
@@ -721,7 +726,7 @@ input::placeholder{
         width: 50%;
     }
     .mission_body{
-        padding: 0 100px;
+        padding: 0 10px;
     }
 
     
