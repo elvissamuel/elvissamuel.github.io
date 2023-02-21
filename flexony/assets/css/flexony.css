@@ -159,13 +159,34 @@ label{
 
 /* Hero Section Styling Ends Here */
 
+.mvc-section{
+    margin-block: 50px;
+}
+.mvc-section .quotation{
+    background-color: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 0px 0px 20px;
+    position: absolute; top: -30px; left: 30px;
+}
+
+.mvc-section .customer{
+    background-color: rgba(237, 233, 233, 0.405);
+    color: #13195D;
+    width: 90%;
+    margin: 30px auto 50px;
+    padding: 45px 40px 40px;
+    position: relative;
+    border-radius: 0px 0px 0px 40px;
+}
+
 /* About Us Scetion Styling Starts Here */
 .about_section{
     padding: 30px 15px;
     /* background-color: #ccc; */
 }
 .about_mission{
-    margin: 30px auto;
+    margin: 10px auto;
     text-align: center;
 }
 .vision-mission{
@@ -567,7 +588,7 @@ input::placeholder{
     }
     .about_mission{
         padding: 10px 70px;
-        margin: 30px 0px;
+        margin-block: 30px;
     }
     .mission_title{
         font-size: 22px;
