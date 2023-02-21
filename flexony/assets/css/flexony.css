@@ -184,6 +184,13 @@ label{
     font-weight: 600;
     color: rgb(59, 58, 58);
     line-height: 28px;
+    font-size: 15px;
+}
+.vision-mission{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 .choose-us_title{
@@ -460,6 +467,9 @@ input::placeholder{
     .nav_section{
         padding-inline: 20px;
     }
+    .vision-mission{
+        flex-direction: row;
+        }
 }
 
 
