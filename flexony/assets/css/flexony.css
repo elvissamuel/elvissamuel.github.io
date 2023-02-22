@@ -162,6 +162,9 @@ label{
 .mvc-section{
     margin-block: 50px;
 }
+.mvc-section .customer_testimony{
+    font-size: 15px;
+}
 .mvc-section .quotation{
     background-color: #D9D9D9;
     width: 70px;
@@ -171,13 +174,20 @@ label{
 }
 
 .mvc-section .customer{
-    background-color: rgba(228, 220, 220, 0.405);
+    background-color: rgba(216, 208, 208, 0.405);
     color: #13195D;
     width: 90%;
     margin: 30px auto 50px;
     padding: 45px 40px 40px;
     position: relative;
     border-radius: 0px 0px 0px 40px;
+}
+.mvc-section .customer_review-container{
+    display: flex;
+    flex-direction: column;
+}
+.mvc-section .c2, .mvc-section .c3 {
+    display: block;
 }
 .fa-eye, .fa-arrow-circle-down, .fa-link{
     font-size: 35px;
@@ -746,6 +756,10 @@ input::placeholder{
     .values_title, .core_values-title{
         color: #13195D;
         padding: 0px 20px;
+    }
+
+.mvc-section .customer_review-container{
+        flex-direction: row;
     }
 
 
