@@ -171,13 +171,16 @@ label{
 }
 
 .mvc-section .customer{
-    background-color: rgba(237, 233, 233, 0.405);
+    background-color: rgba(228, 220, 220, 0.405);
     color: #13195D;
     width: 90%;
     margin: 30px auto 50px;
     padding: 45px 40px 40px;
     position: relative;
     border-radius: 0px 0px 0px 40px;
+}
+.fa-eye, .fa-arrow-circle-down, .fa-link{
+    font-size: 35px;
 }
 
 /* About Us Scetion Styling Starts Here */
