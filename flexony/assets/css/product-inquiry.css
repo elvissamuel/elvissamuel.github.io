@@ -165,15 +165,13 @@ label{
 .product{
     width: 90vw;
     max-width: 600px;
-    height: 250px;
+    height: 350px;
     margin: 0px auto;
     /* box-shadow: -1px -2px 4px rgb(143, 142, 142); */
     position: relative;
     cursor: pointer;
 }
-.product_desc{
-    padding-bottom: 45px;
-}
+
 
 
 .product_img{
@@ -196,6 +194,9 @@ label{
     align-items: center;
     height: 10%;
     /* position: absolute; bottom: 0; left: 0; */
+}
+.product_inquiry_container{
+    margin-top: 50px;
 }
 .product_button{
     margin: 20px auto;
