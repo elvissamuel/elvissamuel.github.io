@@ -440,7 +440,7 @@ input::placeholder{
     .product{
         max-width: none;
         /* width: 40vw; */
-        height: 200px;
+        height: 350px;
     }
     .products_title{
         margin-top: 0px;
@@ -565,7 +565,7 @@ input::placeholder{
    
     .product{
         max-width: none;
-        height: 230px;
+        height: 400px;
         margin: 20px auto;
         /* box-shadow: -1px -2px 2px rgb(143, 142, 142); */
 
