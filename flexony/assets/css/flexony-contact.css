@@ -52,7 +52,7 @@ label{
 }
 
 .nav_logo{
-    width: 100px;
+    width: 120px;
 }
 .nav_menu-bar{
     cursor: pointer;
@@ -305,7 +305,7 @@ input::placeholder{
         justify-content: space-around;
     }
     .nav_logo{
-        width: 110px;
+        width: 140px;
     }
     .contact{
         background-color: #13195D;
@@ -490,7 +490,7 @@ input::placeholder{
 @media only screen and (min-width:1000px){
 
     .nav_logo{
-        width: 135px;
+        width: 170px;
     }
     .nav-menu-big ul{
         gap: 60px;
