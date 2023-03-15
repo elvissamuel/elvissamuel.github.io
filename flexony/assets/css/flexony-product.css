@@ -284,6 +284,9 @@ label {
   background-position: 55% 0;
   background-repeat: no-repeat;
 }
+.footer_social-media a {
+  display: inline-block;
+}
 .footer_address span {
   font-size: 14px;
   margin-bottom: 15px;
