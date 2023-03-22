@@ -230,16 +230,16 @@ img {
   color: #2d314d;
 }
 .articles_container .article {
-  text-align: left;
+  text-align: center;
   margin-bottom: 24px;
 }
 .articles_container .article img {
-  width: 255px;
+  width: 327px;
   height: 200px;
   margin-inline: auto;
 }
 .articles_container .article .article_content {
-  padding-inline: 15px;
+  padding-inline: 85px;
   margin-bottom: 24px;
 }
 .articles_container .article .author {
@@ -454,6 +454,7 @@ img {
     gap: 30px;
   }
   .articles_container .articles img {
+    width: 255px;
     margin-inline: 0px;
   }
   .articles_container .articles .article_content {
