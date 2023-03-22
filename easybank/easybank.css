@@ -154,7 +154,7 @@ img {
 }
 
 .hero_section {
-  background-image: url(/assets/imgs/bg-intro-mobile.svg);
+  background-image: url(bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top -140px right -30px;
@@ -386,7 +386,7 @@ img {
     gap: 30px;
   }
   .hero_section {
-    background-image: url(/assets/imgs/bg-intro-desktop.svg);
+    background-image: url(bg-intro-desktop.svg);
     background-position: top -50px right 0px;
     background-size: contain;
     margin-bottom: 0px;
